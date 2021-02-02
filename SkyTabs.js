@@ -1,5 +1,5 @@
 /**
- * SkyTabs 0.1
+ * SkyTabs 0.1.2
  * https://github.com/remox112358/SkyTabs.git
  * 
  * Copyright (c) 2021 Artyom Davtyan (https://github.com/remox112358)
