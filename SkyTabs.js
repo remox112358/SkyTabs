@@ -1,5 +1,5 @@
 /**
- * SkyTabs 0.1.2
+ * SkyTabs 0.1.3
  * https://github.com/remox112358/SkyTabs.git
  * 
  * Copyright (c) 2021 Artyom Davtyan (https://github.com/remox112358)
@@ -9,9 +9,6 @@
 
 
 
-/**
- * All plugin functionality.
- */
 const SkyTabs = () => {
 
     /**
@@ -24,12 +21,13 @@ const SkyTabs = () => {
      */
     this.init = () => {
 
-        initClasses();
+        initStyles();
         addEventForTabs(tabs);
 
     }
 
     /**
+     * Adding functionality to tabs click event.
      * 
      * @param {array} tabs - Array of tabs DOM elements 
      */
@@ -54,7 +52,7 @@ const SkyTabs = () => {
     /**
      * Declare css styles.
      */
-    this.initClasses = () => {
+    this.initStyles = () => {
 
         var style = document.createElement('style');
 
@@ -72,6 +70,9 @@ const SkyTabs = () => {
 
     }
 
+    /**
+     * Automatically script initialization.
+     */
     init();
     
 }
